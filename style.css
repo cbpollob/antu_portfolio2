@@ -293,6 +293,8 @@ img {
   border: 3px solid var(--accent);
   box-shadow: 0 0 30px var(--glow);
   z-index: 1;
+  /* Fallback background so the area is visible even if the image fails to load */
+  background: var(--bg-card);
 }
 
 /* Hero actions (social icons + resume) */
